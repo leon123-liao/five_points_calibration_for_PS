@@ -1,0 +1,14 @@
+软件说明：
+      1.  文件说明
+        dist 可执行程序生成路径
+        kerneldlls 周立功USBCANFD200U的核心库文件
+        devDialog_frame.py 设备连接失败的对话框UI
+        install.py 打包生成可执行程序MyApp.exe的脚本
+        main_frame.py 主界面UI
+        USBCANFD_WRITER.fbp wxformBuilder使用的UI元素文件
+        zlg_control.py  对周立功USBCANFD200U主要业务功能的封装
+        zlgcan.py   周立功USBCANFD200U基础功能
+        zlgcan_demo.py 主函数功能入口
+
+       2. 软件架构
+         控制软件基于周立功USBCANFD200U的上位机二次开发包修改(可在zlg.cn下载)，界面由wxformBuilder生成，通过wxPython类导入项目中。
